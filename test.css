@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url('/imgs/sky-background.jpg');
+  }
+  
+  #countries {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 55px;
+    justify-content: center;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .card {
+    width: 300px;
+    height: 450px;
+    box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    border-radius: 16px;
+    margin: 20px;
+  }
+  
+  #flag-image {
+    max-width: 80%;
+    min-height: 90%;
+  }
+
+  

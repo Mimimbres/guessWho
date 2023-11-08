@@ -1,13 +1,13 @@
 const cardTemplate = function (el) {
     return `<div class="card">
-                <img id="flag-image" src="${el.Imagen}" alt="flag" />
+                <img id="flag-image" src="${el.Imagen}" width=150px aspect-ratio=auto height= 362px />
                 <h1 class="center">${el.Nombre}</h1>
               </div>`;
   };
   
-  const countriesNode = document.getElementById("master");
+  const countriesNode = document.getElementById("countries");
   
-  fetch('https://apisimpsons.fly.dev/api/personajes?limit=40')
+  fetch('https://apisimpsons.fly.dev/api/personajes?limit=20')
   .then(function (response) {
     return response.json();
 })
